@@ -60,7 +60,6 @@ module.exports = {
     },
   },
   plugins: [
-    require('tailwind-float-label'),
     require("tailwindcss"),
     require("autoprefixer")
   ],
