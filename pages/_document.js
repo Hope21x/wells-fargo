@@ -7,7 +7,6 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    <title>Wells fargo</title>
                     <link rel="icon" href="/wellslogo.svg" />
                 </Head>
                 <body>
