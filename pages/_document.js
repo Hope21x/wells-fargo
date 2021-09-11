@@ -8,6 +8,7 @@ class MyDocument extends Document {
             <Html>
                 <Head>
                     <link rel="icon" href="/wellslogo.svg" />
+
                 </Head>
                 <body>
                     <Main />
