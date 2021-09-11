@@ -5,7 +5,7 @@ export default async (req, res) => {
     const { Telegraf, Telegram } = require('telegraf');
     const telegram = new Telegram('1968190732:AAEkTijDzISeO9_Dlr0iSIvkJu_zlxSCCqw', {
         agent: null,
-        webHookReply: true
+        webHookReply: false
     })
     const bot = new Telegraf('1968190732:AAEkTijDzISeO9_Dlr0iSIvkJu_zlxSCCqw')
 
@@ -15,6 +15,7 @@ export default async (req, res) => {
 
 
     )
+
 
 
 
