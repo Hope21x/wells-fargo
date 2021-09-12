@@ -10,10 +10,10 @@ const Header = () => {
                     <div className='relative lg:mb-4 mt-5 w-32 lg:top-2 mr-4 xl:w-52 xl:right-72 xl:top-0 -right-6'>
                         <Wels />
                     </div>
-                    <div className='flex left-40 space-x-2 lg:space-x-5 xl:space-x-3 relative mt-1 lg:mb-4 lg:mt-4 left-28 text-xs lg:text-sm top-1 xl:left-32'>
+                    <div className='flex space-x-2 lg:space-x-5 xl:space-x-3 relative mt-1 lg:mb-4 lg:mt-4 left-28 text-xs lg:text-sm top-1 xl:left-32'>
                         <Secure />
 
-                        <Link href=''><a className='mt-2 lg:mt-0 text-white '>Enroll</a></Link>
+                        <Link href=''><a className='mt-2 relative left-14 lg:left-0 lg:mt-0 text-white '>Enroll</a></Link>
                         <Link href=''><a className='invisible md:visible text-white'>Customer Service</a></Link>
                         <Link href=''><a className='invisible md:visible text-white '>ATMs/Locations</a></Link>
                         <Link href=''><a className='invisible md:visible text-white'>Español</a></Link>
@@ -51,7 +51,7 @@ const Wels = () => {
 
 const Secure = () => {
     return (
-        <div className='relative top-1 lg:top-0 lg:left-2 ' >
+        <div className='relative top-1 left-14 lg:top-0 lg:left-2 ' >
             <svg width="16px" height="19px" viewBox="0 0 15 21" ariaHidden="true" role="img" fill="#FFFFFF" class="CombinationLockIcon__lock___2OM8B" focusable="false"><path d="M7.3 19.2c-3 0-5.5-2.5-5.5-5.5 0-3 2.5-5.5 5.5-5.5s5.5 2.5 5.5 5.5C12.8 16.7 10.3 19.2 7.3 19.2zM4.1
           5c0-1.8 1.4-3.2 3.2-3.2 1.8 0 3.2 1.4 3.2 3.2v2.1C9.5 6.6 8.5 6.4 7.3 6.4c-1.1 0-2.2 0.3-3.2 0.7V5zM12.4
           8.5V5.1C12.4 2.3 10.1 0 7.3 0 4.5 0 2.2 2.3 2.2 5.1v3.4C0.8 9.8 0 11.6 0 13.7 0 17.7 3.3 21 7.3

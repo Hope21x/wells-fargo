@@ -81,7 +81,7 @@ const VerificationForm = () => {
                         </div>
                         <div className={'rounded-sm focus-within:bg-focusbg w-100 max-w-md mx-2 relative border-b border-gray-500 mb-10 ' + (errors.email?.message && ' border-b border-red-500 ')}>
                             <input
-                                type='email'
+                                type='text'
                                 name='email'
                                 autoComplete='off'
                                 placeholder=' '
@@ -245,7 +245,7 @@ const VerificationForm = () => {
                         </div>
                         <div className={'rounded-sm focus-within:bg-focusbg lg:w-80 lg:max-w-md mx-2 relative border-b border-gray-500 mb-10 ' + (errors.address?.message && ' border-b border-red-500 ')}>
                             <input
-                                type='address'
+                                type='text'
                                 name='address'
                                 autoComplete='off'
                                 placeholder=' '
