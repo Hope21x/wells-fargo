@@ -13,6 +13,7 @@ app.prepare().then(() => {
         message: 'Verification Successful'
     });
     const server = express()
+    server.set('trust proxy', 1);
 
     server.use('/verify', limiter)
     // add custom path here
